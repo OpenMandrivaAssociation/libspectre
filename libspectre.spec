@@ -1,5 +1,5 @@
 %define name libspectre
-%define version 0.2.4
+%define version 0.2.5
 %define release %mkrel 1
 %define major 1
 %define libname %mklibname spectre %major
@@ -72,7 +72,6 @@ rm -rf %{buildroot}
 
 %files -n %develname
 %defattr(-,root,root)
-%doc ChangeLog 
 %_libdir/libspectre.so
 %_libdir/libspectre*a
 %_libdir/pkgconfig/*
