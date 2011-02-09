@@ -1,6 +1,6 @@
 %define name libspectre
 %define version 0.2.6
-%define release %mkrel 1
+%define release %mkrel 2
 %define major 1
 %define libname %mklibname spectre %major
 %define develname %mklibname -d spectre
@@ -15,7 +15,6 @@ Group: System/Libraries
 Url: http://libspectre.freedesktop.org/wiki/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libgs-devel
-BuildRequires: cairo-devel
 
 %description
 libspectre is a small library for rendering Postscript documents. It
@@ -76,5 +75,3 @@ rm -rf %{buildroot}
 %_libdir/libspectre*a
 %_libdir/pkgconfig/*
 %_includedir/*
-
-
