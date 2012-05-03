@@ -1,6 +1,6 @@
 %define name libspectre
 %define version 0.2.6
-%define release %mkrel 3
+%define release %mkrel 4
 %define major 1
 %define libname %mklibname spectre %major
 %define develname %mklibname -d spectre
