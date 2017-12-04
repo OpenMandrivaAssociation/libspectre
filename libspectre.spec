@@ -4,8 +4,8 @@
 
 Summary:	Postscript rendering library
 Name:		libspectre
-Version:	0.2.7
-Release:	11
+Version:	0.2.8
+Release:	1
 License:	GPLv2+
 Group:		System/Libraries
 Url:		http://libspectre.freedesktop.org/wiki/
@@ -41,7 +41,7 @@ Postscript documents.
 %setup -q
 
 %build
-%configure2_5x --disable-static
+%configure --disable-static
 %make
 
 %install
