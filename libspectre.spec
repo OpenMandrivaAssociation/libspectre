@@ -16,7 +16,7 @@ Version:	0.2.12
 Release:	1
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://libspectre.freedesktop.org/wiki/
+Url:		https://libspectre.freedesktop.org/wiki/
 Source0:	http://libspectre.freedesktop.org/releases/%{name}-%{version}.tar.gz
 BuildRequires:	ghostscript-devel
 %if %{with compat32}
