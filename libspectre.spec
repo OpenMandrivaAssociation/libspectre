@@ -18,6 +18,11 @@ License:	GPLv2+
 Group:		System/Libraries
 Url:		https://libspectre.freedesktop.org/wiki/
 Source0:	http://libspectre.freedesktop.org/releases/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ghostscript-devel
 %if %{with compat32}
 BUildRequires:	devel(libgs)
